@@ -9,7 +9,9 @@ export default function Places({
 	return (
 		<section className='places-category'>
 			<h2>{title}</h2>
-			{isLoading && <p className='fallback-text'>Fetching place data...</p>}
+			{isLoading && (
+				<p className='fallback-text'>Fetching destinations data...</p>
+			)}
 			{!isLoading && places.length === 0 && (
 				<p className='fallback-text'>{fallbackText}</p>
 			)}

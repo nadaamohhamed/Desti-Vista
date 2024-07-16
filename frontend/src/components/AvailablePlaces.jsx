@@ -42,10 +42,10 @@ export default function AvailablePlaces({ onSelectPlace }) {
 			{error && <Error title={"An error occurred."} message={error.message} />}
 			{!error && (
 				<Places
-					title='Available Places'
+					title='Available destinations'
 					places={availablePlaces}
 					isLoading={isFetching}
-					fallbackText='No places available.'
+					fallbackText='No destinations available.'
 					onSelectPlace={onSelectPlace}
 				/>
 			)}

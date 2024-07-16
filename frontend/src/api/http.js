@@ -4,7 +4,7 @@ export async function fetchAvailablePlaces() {
 	var response = await fetch(`${API.baseUrl}${API.places}`);
 	var resData = await response.json();
 	if (!response.ok) {
-		throw Error("Failed to fetch places.");
+		throw Error("Failed to fetch destinations.");
 	}
 	return resData.places;
 }
@@ -13,7 +13,7 @@ export async function fetchUserPlaces() {
 	var response = await fetch(`${API.baseUrl}${API.userPlaces}`);
 	var resData = await response.json();
 	if (!response.ok) {
-		throw Error("Failed to fetch user places.");
+		throw Error("Failed to fetch user destinations.");
 	}
 	return resData.places;
 }

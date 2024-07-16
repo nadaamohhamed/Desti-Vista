@@ -62,7 +62,7 @@ function App() {
 			setUserPlaces(userPlaces);
 
 			setErrorUpdatingPlaces({
-				message: error.message || "Failed to update places.",
+				message: error.message || "Failed to update destinations.",
 			});
 		}
 	}
@@ -81,7 +81,7 @@ function App() {
 			} catch (error) {
 				setUserPlaces(userPlaces);
 				setErrorUpdatingPlaces({
-					message: error.message || "Failed to delete places.",
+					message: error.message || "Failed to delete destinations.",
 				});
 			}
 			setModalIsOpen(false);
@@ -114,10 +114,10 @@ function App() {
 
 			<header>
 				<img src={logoImg} alt='Stylized globe' />
-				<h1>PlacePicker</h1>
+				<h1>Desti-Vista</h1>
 				<p>
-					Create your personal collection of places you would like to visit or
-					you have visited.
+					Create your personal collection of destinations you would like to
+					visit or you have visited.
 				</p>
 			</header>
 			<main>
@@ -127,7 +127,7 @@ function App() {
 				{!error && (
 					<Places
 						title="I'd like to visit ..."
-						fallbackText='Select the places you would like to visit below.'
+						fallbackText='Select the destinations you would like to visit below.'
 						places={userPlaces}
 						isLoading={isFetching}
 						onSelectPlace={handleStartRemovePlace}
