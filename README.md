@@ -64,11 +64,11 @@ This section will guide you through setting up your project locally. Follow thes
 
 ### Installation
 1.	Clone the repo and open the project directory:
-
-  ```
-git clone https://github.com/nadaamohhamed/Desti-Vista.git
-cd Desti-Vista
-  ```
+  
+    ```
+    git clone https://github.com/nadaamohhamed/Desti-Vista.git
+    cd Desti-Vista
+    ```
 
 ### Backend Setup
 2. Navigate to the backend directory and install NPM packages:
