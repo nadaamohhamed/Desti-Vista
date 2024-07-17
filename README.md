@@ -1,4 +1,6 @@
 # Desti-Vista
+
+<!-- README TOP -->
 <a id="readme-top"></a>
 
 <div align="center">
@@ -32,7 +34,7 @@
 ## About the project
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/e6ebb836-8646-4abb-be30-65ac223d8b26" alt="Website-Preview" width="1000" height="600">
+  <img src="https://github.com/user-attachments/assets/e6ebb836-8646-4abb-be30-65ac223d8b26" alt="Website-Preview" width="1000" height="500">
 </div>
 
 <br />
